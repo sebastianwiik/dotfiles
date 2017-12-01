@@ -50,6 +50,10 @@ bindsym $mod+d exec --no-startup-id "rofi -show combi -modi combi -combi-modi dr
 # window switcher
 bindsym $mod+Tab exec --no-startup-id rofi -show window
 
+# lock screen
+bindsym $mod+Control+l exec --no-startup-id dm-tool lock
+#bindsym $mod+Control+l exec --no-startup-id ~/.bin/golock
+
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
